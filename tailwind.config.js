@@ -8,9 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent:"#FF8F9C",
+        blackish:"#1b1b1b",
       },
+
+      container:{
+        center:true,
+        padding:"15px",
+      },
+      backgroundColor:{
+        'icon-bg': "rgb(229,231,235)",
+        'iconcolor': "rgb(255,143,156)",
+      }
     },
   },
   plugins: [],
