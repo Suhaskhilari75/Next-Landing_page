@@ -9,13 +9,13 @@ const page = () => {
         <div className='flex w-fit text-black mx-auto gap-10 font-medium py-4' > 
        
         <Link className='navbar_link relative' href={"#"}>HOME</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>CATEGORY</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>MENS</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>WOMENS</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>JEWELRY</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>PERFUME</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>BLOG</Link>
-        <Link className='text-slate-600 hover:text-accent hover:underline' href={"#"}>HOT OFFERS</Link>
+        <Link className='navbar_link relative' href={"#"}>CATEGORY</Link>
+        <Link className='navbar_link relative' href={"#"}>MENS</Link>
+        <Link className='navbar_link relative' href={"#"}>WOMENS</Link>
+        <Link className='navbar_link relative' href={"#"}>JEWELRY</Link>
+        <Link className='navbar_link relative' href={"#"}>PERFUME</Link>
+        <Link className='navbar_link relative' href={"#"}>BLOG</Link>
+        <Link className='navbar_link relative' href={"#"}>HOT OFFERS</Link>
        </div>
     </div>
     </div>

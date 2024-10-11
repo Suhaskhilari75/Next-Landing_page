@@ -1,13 +1,10 @@
+import  Hero from "../app/component/Hero/page"
 export default function Home() {
   return (
     <>
-    <div>
-      main 
-    </div>  
-    <footer>
-      footer
-    </footer>
-
+    <main>
+      <Hero/>
+    </main>
     </>
   );
 }
