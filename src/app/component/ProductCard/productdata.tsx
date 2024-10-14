@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import { AiOutlineStar } from "react-icons/ai";
 
@@ -13,7 +12,7 @@ interface prodType {
   MRP:string;
 }
 
-const page: React.FC<prodType> = ({ img, title, desc, rating, price,MRP }) => {
+const ProductDatacom: React.FC<prodType> = ({ img, title, desc, rating, price,MRP }) => {
   const generateRating = (rating: number) => {
     switch (rating) {
       case 1:
@@ -108,4 +107,4 @@ const page: React.FC<prodType> = ({ img, title, desc, rating, price,MRP }) => {
   );
 };
 
-export default page;
+export default ProductDatacom;

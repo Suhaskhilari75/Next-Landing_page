@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const HeaderCom = () => {
   return (
     <div className="border-b-2 border-gray-200 hidden sm:block my-1">
       <div className="container py-2">
@@ -41,4 +41,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HeaderCom;

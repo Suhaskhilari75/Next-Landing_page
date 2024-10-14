@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const FooterCom = () => {
   return (
     
       <footer className="bg-gray-800 text-white py-8">
@@ -50,4 +50,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default FooterCom;

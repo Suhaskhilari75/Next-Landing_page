@@ -5,11 +5,11 @@ import { IoBagHandleOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import Image from "next/image";
 
-const page = () => {
+const HeaderMainCom = () => {
   return (
     <div className="border-b border-gray-300 py-4 flex justify-around align-middle">
         <div className="container sm:flex justify-between items-center">
-          <div> <Image src="/favicon.png" alt="logo" height={50} width={50}></Image></div>
+          <div className="hidden sm:block"> <Image src="/favicon.png" alt="logo" height={50} width={50}></Image></div>
       <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish">Shopify
       </div>
       <div className="w-full sm:w-[300px] md:w-[70%] relative">
@@ -33,4 +33,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HeaderMainCom;

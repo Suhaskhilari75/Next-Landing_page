@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from '../ProductCard/page';
+import ProductCard from '../ProductCard/productdata';
 const productData = [
   {
     img: "/jacket-1.jpg",
@@ -65,7 +65,7 @@ const productData = [
   },
 ];
 
-const page = () => {
+const NewProductsCom = () => {
   return (
     <div>
       <div className="container pt-16">
@@ -92,4 +92,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default NewProductsCom;

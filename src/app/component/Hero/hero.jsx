@@ -1,8 +1,7 @@
 "use client";
-import { title } from "process";
 import React from "react";
 import Slider from "react-slick";
-import Slide from "../Slides/page";
+import Slide from "../Slides/slides";
 const Herocomponent = () => {
   var settings = {
     dots: true,

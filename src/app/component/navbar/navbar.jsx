@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const page = () => {
+const NavbarCom = () => {
   return (
     <div className=' hidden lg:block'>
 
@@ -22,4 +22,4 @@ const page = () => {
   )
 }
 
-export default page
+export default NavbarCom;

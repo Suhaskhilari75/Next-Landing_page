@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const page = () => {
+const Testimonialscom = () => {
   return (
     <div>
       <div className="container pt-6 pb-16 grid-cols-2">
@@ -52,4 +52,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Testimonialscom;

@@ -1,6 +1,6 @@
-import  Hero from "../app/component/Hero/page"
-import NewProducts from '../app/component/NewProducts/page'
-import Testimonials from '../app/component/Testimonials/page'
+import  Hero from "./component/Hero/hero"
+import NewProducts from './component/NewProducts/newproducts'
+import Testimonials from './component/Testimonials/testimonials'
 
 export default function Home() {
   return (
