@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       {/* <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" /> */}
 
       </head>
-      <body className="container">
+      <body>
         <Header/>
         <HeaderMain/>
         <Navbar/>
