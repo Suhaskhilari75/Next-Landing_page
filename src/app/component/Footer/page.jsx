@@ -41,7 +41,7 @@ const page = () => {
             </div>
             <div>
            <p className="text-gray-400">   
-           All Rights Reserved 2024 ©Shopify Suhas Khilari </p>
+           All Rights Reserved 2024 ©Shopify Made by | Suhas Khilari </p>
             </div>
           </div>
         </div>
