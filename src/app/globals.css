@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 @layer base{
     .diplay-flex{
         @apply flex justify-between items-center

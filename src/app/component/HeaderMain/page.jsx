@@ -3,12 +3,14 @@ import { IoPersonOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
+import Image from "next/image";
 
 const page = () => {
   return (
     <div className="border-b border-gray-300 py-4 flex justify-around align-middle">
         <div className="container sm:flex justify-between items-center">
-      <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish">Logo
+          <div> <Image src="/favicon.png" alt="logo" height={50} width={50}></Image></div>
+      <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-blackish">Shopify
       </div>
       <div className="w-full sm:w-[300px] md:w-[70%] relative">
         <input type="text" className="border-gray-200 border p-2 px-4 rounded-lg w-full" placeholder="Enter any product name..." />
