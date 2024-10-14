@@ -39,7 +39,7 @@ const Herocomponent = () => {
   return (
     <>
       <div>
-        <div className="container pt-6 lg:pt-0">
+        <div className="pt-6 lg:pt-0">
           <Slider {...settings}>
             {slidedata.map((item) => (
               <Slide key={item.id}
